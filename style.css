@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: #DEE9FDff;
+    background-image: url('pattern-background-desktop.svg') ;
+    background-repeat: no-repeat;
+    background-size: contain;    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+}
+.container{
+    height: 650px;
+    width: 450px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.content{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap:10px
+}
+.description{
+    text-align: center;
+    color:#a1a5b0;
+    
+}
+.annual-plan{
+    display: flex;
+    width: 80%;
+    height: 70px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgba(248,249,254,255);
+    justify-content: space-between;
+    align-items: center;
+}
+.plan-p{
+    font-weight: bold;
+}
+.plan-price{
+color: #a1a5b0;;
+}
+
+.left-annual-plan{
+    gap: 10px ;
+    display: flex;
+    justify-content: center;
+}
+
+.payment{
+   background-color: hsl(245, 75%, 52%); 
+   height: 50px;
+   border-radius: 10px;
+   width: 80%;
+   border: none;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+a:link {
+    color: lightblue;
+}
+
+a:hover{
+    color: #766cf1;;
+}
+
+.payment:hover{ 
+    cursor: pointer;
+    background-color: #766cf1;
+}
+
+.payment-btn{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.cancel{
+    margin-bottom: 50px;
+    border:none;
+    background-color: #ffffff;
+}
+
+.cancel-btn{
+    font-size: 14px;
+    color: #80889c;
+    font-weight: bolder;
+}
+
+.cancel-btn:hover{
+    color: black;
+    cursor: pointer;
+}
